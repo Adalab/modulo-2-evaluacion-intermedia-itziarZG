@@ -5,8 +5,9 @@
   font-size: medium;
 }
 
-.button {
-  width: 80px;
+.button,
+.reset {
+  width: 90px;
 }
 .input {
   width: 200px;
