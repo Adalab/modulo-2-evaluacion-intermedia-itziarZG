@@ -1,14 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 5px;
+  padding: 0;
+}
 .body {
   display: flex;
   flex-direction: column;
+  color: grey;
   font-family: Arial, Helvetica, sans-serif;
   font-size: medium;
 }
-
-.button,
-.reset {
-  width: 90px;
+.title {
+  font-size: 40px;
+  color: black;
 }
+
+.button {
+  background-color: rgb(63, 187, 187);
+  color: white;
+  height: 30px;
+  width: 90px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+.reset {
+  background-color: burlywood;
+  height: 30px;
+  width: 105px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
 .input {
-  width: 200px;
+  padding: 2px;
+  border-radius: 5px;
+  background-color: rgba(128, 128, 128, 0.155);
+  height: 25px;
+  width: 195px;
+}
+.clue__text,
+.count__text {
+  padding: 3px;
+  border: 2px solid rgb(161, 161, 161);
 }

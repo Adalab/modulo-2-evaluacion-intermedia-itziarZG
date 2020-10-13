@@ -30,7 +30,7 @@ const handleClick = (event) =>{
   //comparación mynumber
   const dif =Math.abs(mynumber-number); 
   console.log(dif, number/2)
-  if(mynumber>100 || mynumber<0){
+  if(mynumber>100 || mynumber<=0){
     message='El número debe estar entre 1 y 100';
    }else if(dif>number/2 && mynumber<number){
     message='El número es demasiado bajo';
