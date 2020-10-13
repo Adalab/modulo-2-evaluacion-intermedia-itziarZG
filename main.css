@@ -36,10 +36,11 @@
   border-radius: 5px;
   background-color: rgba(128, 128, 128, 0.155);
   height: 25px;
-  width: 195px;
+  width: fit-content;
 }
 .clue__text,
 .count__text {
   padding: 3px;
   border: 2px solid rgb(161, 161, 161);
+  width: fit-content;
 }
