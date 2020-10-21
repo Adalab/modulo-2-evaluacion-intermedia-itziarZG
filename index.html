@@ -4,20 +4,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="./styles/main.css">
   <title>Evaluación Intermedia Itziar Zameza García</title>
 </head>
 
-<body class="body">
+<body>
   <h1 class=title>Adivina el número</h1>
-  <label for=input>Introduce aquí tu número</label>
-  <input type="number" name="input" id="input" class="input js-input" placeholder="1-100">
-  <input type="button" name="input" id="input" class="button js-button" value="Prueba">
-  <p class="clue__text js-clue__text">Pista: Escribe el número y dale a Prueba</p>
-  <p class="count__text js-count__number">Número de intentos: 0</p>
+  <form class="form">
+    <label for=input>Introduce aquí tu número</label>
+    <input type="number" name="input" id="input" class="input js-input" placeholder="1-100">
+    <input type="button" name="input" id="input" class="button js-button" value="Prueba"
+      placeholder="melopidelecorrector">
 
-  <input type="button" name="input" id="input" class="reset js-reset" value="Otra partida">
-  <script type="text/javascript" src="main.js"></script>
+    <p class="clue__text js-clue__text">Pista: Escribe el número y dale a Prueba</p>
+    <p class="count__text js-count__number">Número de intentos: 0</p>
+
+    <input type="button" name="input" id="input" class="reset js-reset" value="Otra partida"
+      placeholder="melopideelcorrecto">
+  </form>
+  <script type="text/javascript" src="./js/main.js"></script>
 </body>
 
 </html>

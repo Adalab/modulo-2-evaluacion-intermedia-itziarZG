@@ -3,7 +3,7 @@
   margin: 5px;
   padding: 0;
 }
-.body {
+.form {
   display: flex;
   flex-direction: column;
   color: grey;
